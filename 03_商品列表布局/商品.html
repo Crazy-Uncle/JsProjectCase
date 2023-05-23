@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?uoqtdk');
+            src: url('fonts/icomoon.eot?uoqtdk#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?uoqtdk') format('truetype'),
+                url('fonts/icomoon.woff?uoqtdk') format('woff'),
+                url('fonts/icomoon.svg?uoqtdk#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        article {
+            width: 309px;
+            height: 476px;
+            /* background-color: aqua; */
+
+        }
+
+        section {
+            width: 283px;
+            height: 360px;
+            /* background-color: brown; */
+            /* text-align: center; */
+
+        }
+
+        section img {
+            width: 309px;
+        }
+
+        section h4 {
+            width: 309px;
+            height: 38px;
+            font-weight: 400;
+            font-size: 14px;
+            padding: 0px 19px;
+        }
+
+        article .price {
+            font-family: 'icomoon';
+
+            width: 309px;
+            height: 38px;
+            /* background-color: brown; */
+            line-height: 38px;
+        }
+
+        .price span:nth-child(1) {
+
+            font-size: 20px;
+            font-weight: 400;
+            color: red;
+            margin-left: 19px;
+        }
+
+        .price span:nth-child(2) {
+            font-size: 15px;
+            color: #a6acb7;
+            text-decoration: line-through;
+        }
+
+        .sold {
+            /* margin-top: 5px; */
+            width: 309px;
+            height: 30px;
+            /* background-color: #a6acb7; */
+        }
+
+        .sold span {
+            width: 50px;
+            height: 50px;
+            font-size: 15px;
+        }
+
+        .sold span:nth-child(1) {
+
+            margin-left: 19px;
+
+
+        }
+
+        .sold .box {
+            display: inline-block;
+            width: 150px;
+            height: 15px;
+            background-color: white;
+            border-radius: 15px;
+            border: 1px solid red;
+
+        }
+
+        .sold .box .bar {
+            width: 120px;
+            height: 13px;
+            background-color: red;
+            border-radius: 15px;
+
+        }
+
+        .buy {
+            width: 309px;
+            height: 48px;
+            /* background-color: blue; */
+            line-height: 48px;
+            text-align: center;
+        }
+
+        .buy a {
+            display: inline-block;
+            width: 280px;
+            height: 48px;
+            background-color: brown;
+            margin-left: 19px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section>
+            <img src="images/mobile.jpg" alt="iphone 6s Plus">
+            <h4>Apple苹果iPhone 6s Plus（A11699）32G 金色 移动联通电信4G手机</h4>
+        </section>
+
+        <div class="price">
+            <span> ￥6088</span> <span>￥6988</span>
+        </div>
+
+        <div class="sold">
+            <span>已售<font color="red">87%</font></span>
+            <div class="box">
+                <div class="bar"></div>
+            </div>
+            <span>剩余29件</span>
+        </div>
+
+        <div class="buy">
+            <a href="#">立即抢购</a>
+        </div>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #cccc;
+        }
+
+        .subject {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            display: flex;
+            border-radius: 100px;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 200px;
+            /* border-radius: 100px; */
+            /* display: none; */
+            background-color: black;
+        }
+
+        .box1 {}
+
+        .box2 {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -25px;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50px;
+        }
+
+        .box2 .son {
+            width: 24px;
+            height: 24px;
+            background-color: white;
+            border-radius: 12px;
+            margin: 50px auto;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50px;
+
+        }
+
+        .box3 .nv {
+            width: 24px;
+            height: 24px;
+            background-color: black;
+            border-radius: 12px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="subject">
+        <div class="box1"></div>
+        <div class="box2">
+            <div class="son"></div>
+        </div>
+        <div class="box3">
+            <div class="nv"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>

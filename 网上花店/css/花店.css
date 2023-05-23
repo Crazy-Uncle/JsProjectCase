@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(237, 237, 237);
+    font-family: '宋体';
+    color: #ccc;
+   
+}
+
+.header {
+    color: #ccc;
+    line-height: 100px;
+    text-align: center;
+}
+
+hr {
+    width: 975px;
+    height: 1px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.nav>h4 {
+    
+    width: 975px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+.nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tet {
+    text-align: center;
+}
+
+.png1 {
+    text-align: center;
+}
+
+.png2 {
+    text-align: center;
+}
+
+.text1 {
+    width: 600px;
+    height: 150px;
+  
+   margin: 0 auto;
+   
+}
+
+.text1 p{
+    text-indent: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(150, 147, 147);
+}
+a:hover {
+    color: skyblue;
+}
+.lian {
+    text-align: center;
+    font-weight: 700;
+}
+
+.tou {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    color: rgb(150, 147, 147);
+}
+
+.tou>div {
+    float: left;
+    
+}

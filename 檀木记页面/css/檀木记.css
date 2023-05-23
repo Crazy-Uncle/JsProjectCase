@@ -1,0 +1,64 @@
+.c1 {
+    width: 625px;
+    height: 150px;
+    font-family: 'lisu';
+    margin: 0 auto;
+}
+
+.c2 {
+    width: 625px;
+
+
+    margin: 0 auto;
+}
+
+.c2 {
+    text-align: center;
+    color: rgb(124, 38, 29);
+    letter-spacing: 3px;
+    font-family: 'lisu';
+}
+
+hr {
+    width: 625px;
+    text-align: center;
+}
+
+.c3 {
+    width: 625px;
+    height: 150px;
+    margin: 0 auto;
+    font-family: 'simhei';
+    text-indent: 2em;
+}
+
+.c4 {
+    text-align: center;
+    color: rgb(124, 38, 29);
+    letter-spacing: 3px;
+    font-family: 'lisu';
+}
+
+.c5 {
+    text-align: center;
+    color: rgb(124, 38, 29);
+
+
+    font-family: 'lisu';
+}
+
+.c6 {
+    width: 625px;
+    height: 80px;
+    background-color: rgb(82, 82, 82);
+    margin: 0 auto;
+
+}
+
+.c6 p {
+    text-align: center;
+    line-height: 80px;
+    font-size: 1px;
+    color: rgb(235, 255, 249);
+
+}

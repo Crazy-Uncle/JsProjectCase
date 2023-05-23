@@ -1,0 +1,109 @@
+.father {
+    width: 1197px;
+    height: 390px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+.left {
+    width: 225px;
+    height: 390px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-right: 12px;
+}
+
+.left .tu1 {
+    width: 225px;
+    height: 390px;
+
+    background-image: url(/项目/学成网浮动布局/学成网素材/left.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 390px;
+}
+
+.top {
+    width: 960px;
+    height: 100px;
+    /* background-color: brown; */
+    float: left;
+    margin-bottom: 20px;
+}
+
+.top .tu2 {
+    width: 960px;
+    height: 100px;
+    display: block;
+    background-image: url(/项目/学成网浮动布局/学成网素材/top.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px 100px;
+}
+
+.bottom {
+    width: 960px;
+    height: 270px;
+    /* background-color: blue; */
+    float: left;
+
+}
+
+.bottom ul li {
+    width: 225px;
+    height: 270px;
+    float: left;
+    margin-right: 20px;
+    /* background-color: chartreuse; */
+}
+
+.bottom ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+.bottom .last {
+    margin-right: 0px;
+}
+
+.bottom .tu3 {
+    display: block;
+    width: 225px;
+    height: 270px;
+    background-image: url(/项目/学成网浮动布局/学成网素材/bottom01.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 270px;
+
+}
+
+.bottom .tu4 {
+    display: block;
+    width: 225px;
+    height: 270px;
+    background-image: url(/项目/学成网浮动布局/学成网素材/bottom02.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 270px;
+
+}
+
+.bottom .tu5 {
+    display: block;
+    width: 225px;
+    height: 270px;
+    background-image: url(/项目/学成网浮动布局/学成网素材/bottom03.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 270px;
+
+}
+
+.bottom .tu6 {
+    display: block;
+    width: 225px;
+    height: 270px;
+    background-image: url(/项目/学成网浮动布局/学成网素材/bottom04.jpg);
+    background-repeat: no-repeat;
+    background-size: 225px 270px;
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .father {
+            width: 758px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        .pp {
+            position: relative;
+            width: 400px;
+            height: 30px;
+            /* background-color: aqua; */
+
+        }
+
+        .pp>div {
+            float: left;
+            width: 30px;
+            height: 30px;
+            /* background-color: brown; */
+            background-image: url(sprites.png);
+
+            background-position: -3px -185px;
+            background-repeat: no-repeat;
+        }
+
+        .pp p {
+            float: left;
+            width: 330px;
+            height: 30px;
+        }
+
+        .kuang {
+            width: 758px;
+            height: 107px;
+            /* background-color: aqua; */
+            line-height: 107px;
+        }
+
+        .kuang .box {
+            float: left;
+            width: 219px;
+            height: 107px;
+            background-color: brown;
+            background-image: url(sprites.png);
+            background-position: 0px -350px;
+
+        }
+
+        .kuang p {
+            text-indent: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="pp">
+            <div>1</div>
+            <p>精灵图的本质是处理网页背景图像的一种技术</p>
+        </div>
+
+        <div class="kuang">
+            <div class="box"></div>
+            <p>可以有效减少服务器接受和请求的次数，提高页面的加载速度</p>
+        </div>
+    </div>
+</body>
+
+</html>

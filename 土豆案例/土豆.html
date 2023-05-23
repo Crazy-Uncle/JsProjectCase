@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tudou {
+            position: relative;
+            left: 50%;
+            margin-left: -220px;
+            width: 440px;
+            height: 252px;
+            /* background-color: aquamarine; */
+            /* overflow: hidden; */
+            background-image: url(1.jpg);
+            background-size: 440px 252px;
+            background-repeat: no-repeat;
+        }
+
+        .tudou::before {
+            position: absolute;
+            content: "";
+            display: none;
+            width: 440px;
+            height: 252px;
+            background-color: rgba(0, 0, 0, .3);
+            cursor: pointer;
+            /* background-color: rebeccapurple; */
+            background-image: url(arr.png);
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+
+        .tudou:hover::before {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tudou">
+
+
+
+    </div>
+
+</body>
+
+</html>

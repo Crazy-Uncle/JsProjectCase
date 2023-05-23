@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            position: relative;
+            width: 49px;
+            height: 49px;
+            background-color: #ff6700;
+        }
+
+        .logo::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            display: table;
+            width: 49px;
+            height: 49px;
+            background-image: url(images/mi-logo.png);
+            background-repeat: no-repeat;
+            transition: all .6s;
+            opacity: 1;
+
+
+        }
+
+        .logo::after {
+            position: absolute;
+            top: 0;
+            left: -49px;
+            content: "";
+            display: table;
+            width: 49px;
+            height: 49px;
+            background-image: url(images/mi-home.png);
+            opacity: 0;
+            transition: all .6s;
+
+        }
+
+        .logo:hover::before {
+            margin-left: 49px;
+        }
+
+        .logo:hover::after {
+            margin-left: 49px;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        <!-- <div class="mi"></div>
+        <div class="home"></div> -->
+    </div>
+
+</body>
+
+</html>

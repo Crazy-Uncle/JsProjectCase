@@ -1,0 +1,148 @@
+
+/* .clearfix::before,.clearfix::after{
+    display: block;
+
+
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+} */
+.father {
+    width: 750px;
+    height: 250px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+}
+
+.left,
+.center,
+.right {
+    width: 230px;
+    height: 250px;
+    /* background-color: brown; */
+    float: left;
+    margin-right: 30px;
+
+}
+
+.father .right {
+    margin-right: 0px;
+}
+
+.left>div {
+    width: 110px;
+    height: 120px;
+    /* background-color: aqua; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.box1 .tu1 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/left01.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+
+.box2 .tu2 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/left02.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+
+.box3 .tu3 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/left03.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+
+.box4 .tu4 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/left04.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+
+.left .box2 {
+    margin-right: 0px;
+
+}
+
+.left .box4 {
+    margin-right: 0px;
+}
+
+.center .tu5 {
+    display: block;
+    width: 230px;
+    height: 250px;
+    background-image: url(/项目/京东布局/京东图片素材/center.png);
+    background-size: 230px 250px;
+    background-repeat: no-repeat;
+}
+
+
+.right>div {
+    width: 110px;
+    height: 120px;
+    /* background-color: aqua; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.right .box6 {
+    margin-right: 0px;
+
+}
+
+.right .box8 {
+    margin-right: 0px;
+}
+
+.box5 .tu6 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/right01.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+.box6 .tu7 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/right02.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+.box7 .tu8 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/right03.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}
+.box8 .tu9 {
+    width: 110px;
+    height: 120px;
+    display: inline-block;
+    background-image: url(/项目/京东布局/京东图片素材/right04.png);
+    background-size: 110px 120px;
+    background-repeat: no-repeat;
+}

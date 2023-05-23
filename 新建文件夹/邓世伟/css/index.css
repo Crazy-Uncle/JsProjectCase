@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    min-width: 1140px;
+    background: #F3F4F5;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.header-center{
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+}
+.header{
+   width: 100%;
+    height: 120px;
+}
+.beijin{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+}
+.beijin>img{
+    width: 100%;
+    height: 100%;
+}
+.header-center-left>span{
+    margin-left: 30px;
+    color: #FF1493;
+    font-size: 40px;
+}
+.header-center-left:hover{
+    animation:rotate 1s infinite; -webkit-animation:rotate 1s infinite;
+}
+@-webkit-keyframes rotate{
+    from{ -webkit-transform:rotateY(360deg);}
+    to{ -webkit-transform:rotateY(0deg);}     
+}
+@keyframes rotate{
+    from{ -webkit-transform:rotateY(360deg);}
+    to{ -webkit-transform:rotateY(0deg);}     
+}
+.header-center-right{
+    margin-right:30px; 
+    display: flex;
+    position: relative;
+}
+.header-center-right>div{
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 10px;
+    color:#fff;
+    
+}
+.header-center-right>div>a{
+    color: #fff;
+}
+.daxiao{
+    width: 350px;
+    height: 400px;
+    background: #D9DCDF;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    display: none;
+    
+}
+.header-center-right>div:hover ,.header-center-right>div:hover a{
+    background: #D9DCDF;
+    color: #48545a;
+
+}
+.header-center-right>div:hover .daxiao{
+    display: inline-block;
+}
+.daxiao>div{
+    padding-bottom: 6px;
+    width: 300px;
+    height: 40px;
+   line-height: 40px;
+    margin: 0 auto;
+}
+.daxiao>div>input{
+    width: 300px;
+    height: 40px;
+    border:none;
+}
+.daxiao>div>textarea{
+    height: 70px;
+    width: 300px;
+    border: none;
+}
+.daxiao .anniu{
+    width: 300px;
+    height: 40px;
+background: #FF1493;
+text-align: center;
+color: white;
+margin-top: 50px;
+}
+.daxiao .anniu>a{
+    color: white;
+}
+.daxiao hr{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 30px  
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last>span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    background: #999;
+    text-align: center;
+}
+.shenti{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shenti-top{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.shenti-top>div:nth-child(1){
+    font-size: 34px;
+    padding-top: 30px
+}
+.shenti-top>div:nth-child(2){
+    font-size: 19px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 30px
+}
+.shenti-top>div{
+    padding: 20px;
+}
+.shenti-buju{
+    width: 780px;
+    margin: 0 auto;
+}
+.shenti-bottom{
+    width: 1000px;
+    height: 400px;
+  
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -72px;
+    display: flex;
+}
+.shenti-bottom>div{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+.shenti-bottom-left>div,.shenti-bottom-center>div,.shenti-bottom-right>div{
+    margin: 20px 0 20px 0;
+}
+.shenti-bottom-left>:nth-child(1),.shenti-bottom-center>:nth-child(1),.shenti-bottom-right>:nth-child(1){
+    font-size: 23px
+}
+.shenti-bottom-left>:nth-child(2),.shenti-bottom-center>:nth-child(2),.shenti-bottom-right>:nth-child(2){
+    font-size: 16px
+}
+.shenti-bottom-left>:nth-child(4),.shenti-bottom-center>:nth-child(4),.shenti-bottom-right>:nth-child(4){
+    font-size: 12px;
+    color: #48545a;
+}
+
+.footer{
+    width: 100%;
+    height: 240px;
+    padding-top: 30px;
+    margin-top: 20px;
+    background: #e6e8ea;
+}
+.footer-center{
+    width: 1024px;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-center span{
+    padding: 18px;
+    margin: 10px;
+    background: cadetblue;
+    border-radius: 50%;
+}
+.footer-center>p{
+    margin-top: 50px;
+}
+.you_xia{
+    height: 80px;
+    width: 30px;
+    background: red;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px
+}
+.you_xia>div:hover{
+    color: white
+}
+.you_xia>div{
+    height: 26px;
+    width: 30px;
+    line-height: 26px;
+   
+}
+
